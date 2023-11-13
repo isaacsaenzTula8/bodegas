@@ -1,9 +1,15 @@
 <?php 
 include 'menuPrincipal.php';
 ?>
-    <div class="container">
-        <h1 class="mt-5">Formulario para Realizar Traslados</h1>
-        <form action="procesar_traslado.php" method="post">
+    <div class=" text-center mt-5 ">
+    <h1 >Traslados</h1>
+    <!--agregar imagen de productos desde carpeta -->
+    <img src="imagenes/bodega.png" class="img-fluid" alt="Responsive image" style="width:50px; height:50px " >
+    </div>
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center" style="background-color:#E6E6FA">
+  <div class="card mt-2 mx-auto p-4 bg-light">
+    <div class="card-body bg-light">
+    <form action="procesar_traslado.php" method="post">
             <div class="form-group">
                 <label for="producto">Selecciona el producto:</label>
                 <select class="form-control" name="producto" id="producto">
@@ -89,5 +95,5 @@ include 'menuPrincipal.php';
             <button type="submit" class="btn btn-primary">Realizar Traslado</button>
         </form>
     </div>
-</body>
-</html>
+    </div>
+    </div>

@@ -1,7 +1,11 @@
 <?php 
 include 'menuPrincipal.php';
 ?>
-    <h1>Eliminar Bodega</h1>
+    <div class=" text-center mt-5 ">
+    <h1 >Modificar producto</h1>
+    <!--agregar imagen de productos desde carpeta -->
+    <img src="imagenes/bodega.png" class="img-fluid" alt="Responsive image" style="width:50px; height:50px " >
+    </div>
     <?php
     // Recuperar el ID de la bodega a eliminar desde la URL
     $id_bodega = $_GET['id'];

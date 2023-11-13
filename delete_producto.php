@@ -1,7 +1,11 @@
 <?php 
 include 'menuPrincipal.php';
 ?>
-    <h1>Eliminar Producto</h1>
+  <div class=" text-center mt-5 ">
+    <h1 >Eliminar Productos</h1>
+    <!--agregar imagen de productos desde carpeta -->
+    <img src="imagenes/productos.png" class="img-fluid" alt="Responsive image" style="width:50px; height:50px " >
+  </div>
     <?php
     // Recuperar el ID del producto a eliminar desde la URL
     $id_producto = $_GET['id'];
